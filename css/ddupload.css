@@ -23,6 +23,12 @@
 }
 
 
+.dropzone-disabled {
+    border: 4px solid #343a40;
+    opacity: 0.4;
+}
+
+
 /**
  * D R O P Z O N E   P R O M P T
  */
