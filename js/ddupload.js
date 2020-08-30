@@ -90,7 +90,7 @@ function addThumb(dropzone, file) {
 
     // make prompt smaller
     $($(dropzone).find("span")[0]).addClass("small_prompt");
-    
+
 
     // show thumbnail if file is image
     if ( file.type.startsWith("image/") ) {
@@ -171,6 +171,10 @@ dropzone.isEnabled = function() {
 // disable the dropzone
 dropzone.disable = function() {
     $(dropzone).addClass("dropzone-disabled");
+}
+// enable the dropzone
+dropzone.enable = function() {
+    $(dropzone).removeClass("dropzone-disabled");
 }
 
 
