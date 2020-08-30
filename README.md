@@ -48,17 +48,30 @@ The HTML between **BEGIN WIDGET** and **END WIDGET** is the minimum needed to ge
 
 ## Upload
 
+### via HTML
+
 the dropzone contains a normal input of the type file. You can simply put the dropzone into a form and send the data just like with a normal form.
+
+### via AJAX
 
 Alternatively you can, of course, use ajax and read the data out of the input.
 
-You might want to disable the dropzone while uploading via ajax. you can do this using inbuilt functions, assuming your dropzone has the id of `dropzone`
+You can access the object via the DOM selector to the `dropzone` element. Assuming your dropzone has the id of `dropzone`, the code would look like this.
 ```javascript
 let dropzone = document.getElementById("dropzone");
+```
+You might want to disable the dropzone while uploading via ajax. you can do this using inbuilt functions.
+```javascript
 
 // disable dropzone
 dropzone.disable();
-
+```
+Finally you can access the files.
+```javascript
+files = dropzone.getFiles();
+```
+After the files are uploaded, don't forget to enable the form again unless you want to redirect the user.
+```javascript
 // enable dropzone
 dropzone.enable();
 ```
