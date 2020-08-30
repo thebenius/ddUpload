@@ -52,6 +52,17 @@ the dropzone contains a normal input of the type file. You can simply put the dr
 
 Alternatively you can, of course, use ajax and read the data out of the input.
 
+You might want to disable the dropzone while uploading via ajax. you can do this using inbuilt functions, assuming your dropzone has the id of `dropzone`
+```javascript
+let dropzone = document.getElementById("dropzone");
+
+// disable dropzone
+dropzone.disable();
+
+// enable dropzone
+dropzone.enable();
+```
+
 ## Usage
 
 Once ddUpload is integrated it is simple to use and very intuitive.
