@@ -158,6 +158,11 @@ dropzone.isEnabled = function() {
     return !$(dropzone).hasClass("dropzone-disabled");
 }
 
+// get selected files
+dropzone.getFiles = function() {
+    return this.input.files;
+}
+
 
 /**
  *  ███╗   ███╗███████╗████████╗██╗  ██╗ █████╗ ██████╗  ██████╗
