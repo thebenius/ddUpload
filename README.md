@@ -58,16 +58,18 @@ Once ddUpload is integrated it is simple to use and very intuitive.
 
 To select Files, you can simply drop them into the droparea.
 
-![Drop Files]()
+![Drop Files](https://github.com/thebenius/ddUpload/blob/master/screenshots/drop.png)
 
 Alternatively you can click the add-widget to open a dialog and select one or multiple files there. The dialog and it's usage depends on your operating system and browser.
 
-![Click To Add]()
+![Click To Add](https://github.com/thebenius/ddUpload/blob/master/screenshots/add.png)
 
-![File Dialog]()
+![File Dialog](https://github.com/thebenius/ddUpload/blob/master/screenshots/dialog.png)
 
 Once you selected the files, they show up in a grid. Images will be displayed immediately.
 
-![Selected Files]()
+![Selected Files](https://github.com/thebenius/ddUpload/blob/master/screenshots/uploaded.png)
 
 To delete a file, hover over it and click the trash.
+
+![Delete Files](https://github.com/thebenius/ddUpload/blob/master/screenshots/delete.png)
