@@ -12,6 +12,7 @@
     text-align: center;
     border: 4px dashed #343a40;
     border-radius: 5px;
+    margin: 10px 0;
 }
 
 .dropzone.drag-over {
