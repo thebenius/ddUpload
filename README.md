@@ -77,7 +77,7 @@ dropzone.enable();
 ```
 
 ### via [uploadDZ](https://gist.github.com/thebenius/02838c5d49b3e0be451c67cb1f1a24ec)
-[uploadDU](https://gist.github.com/thebenius/02838c5d49b3e0be451c67cb1f1a24ec) is a javascript that takes care of the upload to the server. All you need is a backend that handles the upload.
+[uploadDZ](https://gist.github.com/thebenius/02838c5d49b3e0be451c67cb1f1a24ec) is a javascript that takes care of the upload to the server. All you need is a backend that handles the upload.
 
  > :warning: **IMPORTANT** Use the provided git link to include uploadDZ into your script. This is important because of copyright law!
 
