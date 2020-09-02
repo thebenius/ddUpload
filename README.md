@@ -138,7 +138,7 @@ Alternatively you can click the add-widget to open a dialog and select one or mu
 
 Once you selected the files, they show up in a grid. Images will be displayed immediately.
 
-![Selected Files](https://github.com/thebenius/ddUpload/blob/master/screenshots/uploaded.png)
+![Selected Files](https://github.com/thebenius/ddUpload/blob/master/screenshots/selected.png)
 
 To delete a file, hover over it and click the trash.
 
